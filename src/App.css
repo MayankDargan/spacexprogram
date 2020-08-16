@@ -1,0 +1,28 @@
+body{
+  background-color: #ccc !important;
+}
+.App {
+  text-align: center;
+}
+
+.filter{
+  background: rgb(197,224,155);
+  padding: 2px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.row{
+  margin-bottom: 10px;
+}
+
+.filters-container{
+  background: white;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.content{
+  float: left;
+}

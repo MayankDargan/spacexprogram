@@ -1,0 +1,33 @@
+.card{
+    min-width: 180px !important;
+}
+
+.card-img, .card-img-top{
+    padding: 20px;
+}
+
+label{
+    font-size: 12px;
+}
+
+li{
+    padding: 0;
+    border: 0;
+}
+
+li > span{
+    font-size: 12px;
+    padding: 2px!important;
+    border: 0px;
+}
+
+.card-deck .card{
+    margin-bottom: 15px!important;
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+}
+
+.list-group-flush>.list-group-item{
+    border: 0;
+    padding: 0;
+}
