@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "nodemon ./server-build/index.js",
-    "build": "react-scripts build webpack --config webpack.server.js --mode=development",
+    "build": "webpack --config webpack.server.js --mode=development",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev:build-server": "webpack --config webpack.server.js --mode=development",
