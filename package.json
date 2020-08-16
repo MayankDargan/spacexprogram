@@ -17,7 +17,7 @@
     "request": "^2.88.2"
   },
   "scripts": {
-    "start": "nodemon ./server-build/index.js",
+    "start": "node ./server-build/index.js",
     "build": "webpack --config webpack.server.js --mode=development",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
