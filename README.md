@@ -37,11 +37,20 @@ Open [http://localhost:3006] to view it in the browser.
 
 Below are some snapshots of the application 
 
+### `Desktop View`
 
 ![Alt text](https://github.com/MayankDargan/spacexprogram/blob/development/public/desktop.PNG?raw=true "Desktop View")
+
+### `Mobile View`
 
 ![Alt text](https://github.com/MayankDargan/spacexprogram/blob/development/public/mobile1.PNG "Mobile View")
 
 ![Alt text](https://github.com/MayankDargan/spacexprogram/blob/development/public/mobile2.PNG?raw=true "Mobile View")
 
+### `Tablet View`
+
 ![Alt text](https://github.com/MayankDargan/spacexprogram/blob/development/public/tablet.PNG?raw=true "Tablet View")
+
+### `Performance and Accessibility`
+
+![Alt text](https://github.com/MayankDargan/spacexprogram/blob/development/public/performance.PNG "Performance")
