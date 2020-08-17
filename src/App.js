@@ -80,7 +80,7 @@ class App extends React.Component{
     
     if(ls.get('filters')){
       ls.remove('filters');
-      ls.set({'filters': JSON.stringify(filters)});
+      ls.set('filters',JSON.stringify(filters));
     } else{
       ls.set('filters', JSON.stringify(filters));
     }
@@ -111,7 +111,7 @@ class App extends React.Component{
     filters.successful_landing = filterValue;
     if(ls.get('filters')){
       ls.remove('filters');
-      ls.set({'filters': JSON.stringify(filters)});
+      ls.set('filters',JSON.stringify(filters));
     } else{
       ls.set('filters', JSON.stringify(filters));
     }
