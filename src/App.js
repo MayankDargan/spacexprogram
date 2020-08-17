@@ -123,10 +123,10 @@ class App extends React.Component{
       urlFilter+='&land_success='+filters.successful_landing;
     }
     if(filters.successful_launch !== ''){
-      urlFilter.concat('&launch_success='+filters.successful_launch);
+      urlFilter+='&launch_success='+filters.successful_launch;
     }
     if(filters.year !== ''){
-      urlFilter.concat('&launch_year='+filters.year);
+      urlFilter+='&launch_year='+filters.year;
     }
     axios.get(`https://api.spacexdata.com/v3/launches?limit=100${urlFilter}`)
     .then((response)=>{
